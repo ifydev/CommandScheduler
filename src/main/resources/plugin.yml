@@ -1,0 +1,16 @@
+name: CommandScheduler
+version: 1.0.0
+author: IfyDev
+main: me.ifydev.commandscheduler.CommandSchedulerPlugin
+description: Easily schedule commands to be run on a periodic basis
+
+commands:
+  schedule:
+    description: Schedule a command
+    permission: commandscheduler.command.schedule
+  unschedule:
+    description: Unschedule a command
+    permission: commandscheduler.command.unschedule
+  listschedule:
+    description: List the scheduled commands
+    permission: commandscheduler.command.list
